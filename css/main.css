@@ -1,0 +1,583 @@
+/*
+font-family: 'Avenir 35 Light'
+font-family: 'Avenir 55 Roman'
+font-family: 'Avenir 85 Heavy'
+font-family: 'Avenir 65 Medium'
+font-family: 'Raleway', sans-serif;
+*/
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+/* ---------------nav stuff----------------*/
+
+nav{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px; 
+}
+
+
+body {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+}
+
+
+.name {
+	text-align: left;
+	position: relative;
+	top: 40px;
+	max-width: 210px
+}
+
+
+.logo {
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: 600px;
+	width: 85px;
+	height: 75px;
+}
+
+
+.menu {
+	text-align: center;
+}
+
+
+.menu li {
+	display: inline;
+	position: relative;
+	top: 60px;
+}
+
+
+.photography, .music, .video, .about {
+	color: black
+}
+
+
+.photography:hover, .music:hover, .video:hover, .about:hover {
+	text-decoration: none;
+	color: white;
+	border: solid black;
+	background-color: black;
+	padding-left: 1px;
+	border-radius: 2px
+}
+
+
+.homeimage {
+	position: absolute;
+	top: 180px;
+	left: 165px;
+	height: 500px;
+	width: 960px
+}
+
+/* ---------------end of nav stuff----------------*/
+
+
+
+
+/* ---------------about stuff----------------*/
+
+ .aboutcontent{
+ 	position:relative;
+ 	top: 20px;
+ }
+
+
+.aboutimage{
+	max-height: 400px;
+	position: relative;
+	left: 120px;
+	top: 80px;
+	border-style: solid;
+	border-radius: 30px
+}
+
+
+.abouttext{
+	position: relative;
+	left: 60px;
+	bottom: 240px;
+	padding-left: 520px;
+	padding-right: 80px;
+	text-align: center
+}
+
+
+.icons{
+	position: relative;
+	left: 745px;
+	bottom: 310px;
+	width: 300px;
+	height: 50px
+}
+
+
+.linkedin, .youtube, .tumblr, .instagram{
+	height: 50px;
+	width: 50px;
+	padding: 5px
+}
+
+/* ---------------end of about stuff----------------*/
+
+
+
+
+
+/* ---------------albums stuff----------------*/
+
+.dumboalbum:hover, .jeremyscottalbum:hover, .miscalbum:hover {
+	opacity: .65;
+	text-decoration: none;
+}
+
+
+.dumboalbum {
+	position: absolute;
+	top: 250px;
+	left: 115px;
+	height: 300px;
+    width: 300px;
+
+}
+
+
+.jeremyscottalbum {
+	position: absolute;
+	top: 250px;
+	left: 495px;
+	height: 300px;
+    width: 300px;	
+}
+
+
+.miscalbum {
+	position: absolute;
+	top: 250px;
+	left: 875px;
+	height: 300px;
+    width: 300px;
+}
+
+
+.dumbotext {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	bottom: 300px;
+	color: black;
+	border: solid transparent;
+	padding-top: 130px;
+	height: 300px;
+	width: 300px;
+	opacity: 0
+}
+
+
+.jeremyscotttext {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	bottom: 300px;
+	color: black;
+	border: solid transparent;
+	padding-top: 130px;
+	height: 300px;
+	width: 300px;
+	opacity: 0;
+}
+
+
+.misctext {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	bottom: 300px;
+	color: black;
+	border: solid transparent;
+	padding-top: 130px;
+	height: 300px;
+	width: 300px;
+	opacity: 0
+}
+
+
+.dumbotext:hover, .jeremyscotttext:hover, .misctext:hover {
+	opacity: 1
+}
+
+/* ---------------end of albums stuff----------------*/
+
+
+
+
+
+
+
+
+/* --------------- photo stuff----------------*/
+
+
+
+
+.dumbo, .jeremyscott, .misc {
+	max-height: 450px;
+}
+
+.main-gallery.js-flickity.flickity-enabled.is-draggable {
+	top: 60px
+}
+
+/* ---------------end of photo stuff----------------*/
+
+
+
+
+
+
+
+
+/* --------------- music stuff----------------*/
+
+.soundcloud {
+	position: relative;
+	top: 80px;
+}
+
+/* ---------------end of music stuff----------------*/
+
+
+
+
+
+
+/* --------------- video stuff----------------*/
+
+.story, .sixflags, .tour, .sanfran, .beautiful, .downtown{
+	height: 300px;
+	width: 300px;
+}
+
+
+.story:hover, .sixflags:hover, .tour:hover, .sanfran:hover, .beautiful:hover, .downtown:hover {
+	opacity: .65;
+}
+
+
+.story{
+	position: absolute;
+	top: 250px;
+	left: 115px;
+	height: 300px;
+    width: 300px;
+}
+
+
+.sixflags {
+	position: absolute;
+	top: 250px;
+	left: 495px;
+	height: 300px;
+    width: 300px;
+}
+
+
+.tour {
+	position: absolute;
+	top: 250px;
+	left: 875px;
+	height: 300px;
+    width: 300px;
+}
+
+
+.sanfran {
+	position: absolute;
+	top: 700px;
+	left: 115px;
+	height: 300px;
+    width: 300px;
+}
+
+
+.beautiful {
+	position: absolute;
+	top: 700px;
+	left: 495px;
+	height: 300px;
+    width: 300px;
+}
+
+
+.downtown {
+	position: absolute;
+	top: 700px;
+	left: 875px;
+	height: 300px;
+    width: 300px;
+}
+
+
+.storytext {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	bottom: 300px;
+	color: black;
+	border: solid transparent;
+	padding-top: 130px;
+	height: 300px;
+	width: 300px;
+	opacity: 0
+}
+
+
+.sixflagstext {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	bottom: 300px;
+	color: black;
+	border: solid transparent;
+	padding-top: 130px;
+	height: 300px;
+	width: 300px;
+	opacity: 0
+}
+
+
+.tourtext {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	bottom: 300px;
+	color: black;
+	border: solid transparent;
+	padding-top: 130px;
+	height: 300px;
+	width: 300px;
+	opacity: 0
+}
+
+
+.sanfrantext {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	bottom: 300px;
+	color: black;
+	border: solid transparent;
+	padding-top: 130px;
+	height: 300px;
+	width: 300px;
+	opacity: 0
+}
+
+
+.beautifultext {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	bottom: 300px;
+	color: black;
+	border: solid transparent;
+	padding-top: 130px;
+	height: 300px;
+	width: 300px;
+	opacity: 0
+}
+
+.downtowntext {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	bottom: 300px;
+	color: black;
+	border: solid transparent;
+	padding-top: 130px;
+	height: 300px;
+	width: 300px;
+	opacity: 0
+}
+
+
+.storytext:hover, .sixflagstext:hover, .tourtext:hover, .sanfrantext:hover, .beautifultext:hover, .downtowntext:hover {
+	opacity: 1;
+}
+
+/* ---------------end of video stuff----------------*/
+
+
+
+
+
+.flickity-prev-next-button:hover {
+  background: transparent;
+}
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  color: white;
+}
+.flickity-prev-next-button.no-svg {
+  color: white;
+}
+/* hide disabled button */
+.flickity-prev-next-button:enabled {
+  color: black;
+}
+
+/* position dots up a bit */
+.flickity-page-dots {
+  bottom: -22px;
+}
+/* dots are lines */
+.flickity-page-dots .dot {
+  height: 4px;
+  width: 40px;
+  margin: 0;
+  border-radius: 0;
+}
+
+
+
+
+/* ---------------end of photo stuff----------------*/
+
+
+
+
+
+
+.fancybox-type-iframe .fancybox-nav {
+    width: 60px;       
+}
+
+.fancybox-type-iframe .fancybox-nav span {
+    visibility: visible;
+    opacity: 0.5;
+}
+
+.fancybox-type-iframe .fancybox-nav:hover span {
+    opacity: 1;
+}
+
+.fancybox-type-iframe .fancybox-next {
+    right: -60px;
+}
+
+.fancybox-type-iframe .fancybox-prev {
+    left: -60px;
+}
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+/* Desktop */
+@media only screen and (min-width: 1200px) {
+	#screen_1200 {
+		display: block;
+	}
+
+}
+/* Tablet */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	#screen_992 {
+		display: block;
+	}
+
+}
+/* Mobile */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#screen_768 {
+		display: block;
+	}
+
+}
+/* Smaller Mobile */
+@media only screen and (max-width: 767px) {
+	#screen_small {
+		display: block;
+	}
+
+}
+
+/* Specific Mobile Device Media Queries */
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) { 
+	#screen_iPhone6Plus {
+		display: block;
+	}
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (device-aspect-ratio: 375/667) { 
+	#screen_iPhone6 {
+		display: block;
+	}
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) {
+	#screen_GalaxyS5{
+		display: block;
+	}
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (device-aspect-ratio: 40/71) {
+	#screen_iPhone5 {
+		display: block;
+	}
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (device-aspect-ratio: 2/3) {
+	#screen_iPhone4 {
+		display: block;
+	}
+}
+
+
+
+/* full width cells by default */
+.gallery-cell {
+  width: 100%;
+}
+
+@media screen and ( min-width: 768px ) {
+  /* half-width cells for larger devices */
+  .gallery-cell { width: 50%; }
+}
